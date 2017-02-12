@@ -63,6 +63,15 @@ color: #fff;
 }
 ```
 
+- 展示组件
+```
+由于不好描述，所以我以文件的形式放在相应的文件夹中
+html->./html/ShowPortfolio.html
+css->./css/ShowPortfolio.html
+js->./js/easyResponsiveTabs.js
+需要使用jquery.min.js
+把easyResponsiveTabs.js放在./js下
+```
 
 - 页尾署名组件
 ```html
