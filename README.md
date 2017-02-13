@@ -218,3 +218,84 @@ js->./js/easyResponsiveTabs.js
     font-size: 0.9em; 
 }
 ```
+
+- 登录输入框组件
+```html
+<head>
+<link href="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body style="background:#000;">
+	<h3 class="text-center" style="color:#fff;">hello</h3>
+	<form action="#" method="post">
+		<div class="input-row">
+	 		<input type="text" class="userinput" name="User Name" placeholder="User Name" required=""/> 
+	 		<input type="password" class="pwdinput" name="Password" placeholder="Password" required=""/>
+		</div>
+	</form>
+</body>
+```
+```css
+.input-row {
+    margin-left: auto;
+    margin-right: auto;
+    width:50%;
+    margin-top: 5em;
+    padding: 1em 1.5em;
+    border: 1px solid #c7c7c7;
+    -webkit-border-radius: 15px; 
+    -moz-border-radius: 15px;  
+    -o-border-radius: 15px;
+    -ms-border-radius: 15px;
+    border-radius: 15px;
+}
+
+.userinput,.pwdinput {
+    outline: none;
+    font-size: 1em;
+    color: #fff;
+    padding: 0.6em 1em .8em 2em;
+    margin: 0;
+    width: 83.6%;
+    border: none;
+    -webkit-appearance: none;
+    display: block;
+    background: transparent;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -o-border-radius: 3px;
+    -ms-border-radius: 3px;
+    border-radius: 3px;
+    font-family: 'Athiti', sans-serif;
+}
+.userinput {
+    background: url(../images/1.png)no-repeat 2px 10px;
+    display: block;
+    border-bottom: 1px solid #c7c7c7;
+}
+.pwdinput{
+    background: url(../images/2.png)no-repeat 2px 10px;
+    display: block;
+    margin-top:0.3em;
+}
+
+.userinput::-webkit-input-placeholder{ 
+    font-size: 1em; 
+    font-family: 'Athiti', sans-serif;
+}
+::-webkit-input-placeholder {
+   color: #fff; 
+   font-family: 'Athiti', sans-serif; 
+} 
+:-moz-placeholder { /* Firefox 18- */
+   color: #fff;
+   font-family: 'Athiti', sans-serif;
+} 
+::-moz-placeholder {  /* Firefox 19+ */
+    color: #fff; 
+    font-family: 'Athiti', sans-serif;
+} 
+:-ms-input-placeholder {  
+   color: #fff; 
+   font-family: 'Athiti', sans-serif;
+}
+```
