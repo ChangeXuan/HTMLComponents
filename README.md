@@ -300,4 +300,32 @@ js->./js/easyResponsiveTabs.js
 }
 ```
 
-- 跳转链接文字
+- 跳转链接文字颜色渐变组件
+```html
+<div class="light-label">
+  <p><a href="https://goto.com">Hello World</a></p>
+</div>
+```
+```css
+.light-label { 
+    text-align: center;
+    padding: 0 1em; 
+}
+.light-label p {
+    margin: 1.5em 0 0;
+    text-align: center;
+    padding: 1em 0 0;
+}
+.light-label p a{
+    color: #fff;
+    -webkit-transition:.5s all;
+    -moz-transition:.5s all;
+    -o-transition:.5s all;
+    -ms-transition:.5s all;
+    transition:.5s all;
+}
+.light-label p a:hover {
+    color: #FFC107;
+    text-decoration:none;
+}
+```
