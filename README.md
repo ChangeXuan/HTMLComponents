@@ -170,3 +170,51 @@ js->./js/easyResponsiveTabs.js
   margin: 0 5px 5px 0;
 }
 ```
+
+- 点击镂空效果按钮
+```html
+<head>
+<link href="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+	<div class="text-center">
+		<button class="testButton" type="button">LOGIN</button>
+	</div>
+</body>
+```
+```css
+.testButton {
+    font-size: 1em;
+    color: #fff;
+    background: #FFC107;
+    border: 3px solid #FFC107;
+    outline: none;
+    cursor: pointer;
+    padding: .6em 1em;
+    -webkit-appearance: none;
+    width: 50%;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    border-radius: 8px;
+}
+.testButton:hover {
+    background: transparent;
+    color: #FFC107;
+    border-color:#FFC107 ;
+    transition: 0.5s all ;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+}
+
+.testButton { 
+    margin-top:  2.1em;
+    margin-bottom: 2.1em;
+    padding: .5em 1em; 
+    border-width: 1px; 
+    font-size: 0.9em; 
+}
+```
