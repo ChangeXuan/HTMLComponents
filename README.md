@@ -140,3 +140,33 @@ js->./js/easyResponsiveTabs.js
 }
 ```
 
+- 描述小卡片组件
+```html
+<div class="article">
+  <a href="https://en.wikipedia.org/wiki/Hello Kitty" target="_blank">
+    <h2>Hello Kitty</h2>
+    <div>
+      <img src="https://image.jpg">
+      <p>Hello this is mini car</p>
+    </div>
+  </a>
+</div>
+```
+```css
+.article {
+  padding: 20px;
+  font-family: 'Lora', serif;
+  background: #fff;
+  padding: 20px 50px;
+  margin-bottom: 20px;
+}
+
+.article:hover {
+  background-color: #E5EDDC;
+}
+
+.article img {
+  float: left;
+  margin: 0 5px 5px 0;
+}
+```
