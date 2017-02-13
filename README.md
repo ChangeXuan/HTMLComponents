@@ -299,3 +299,5 @@ js->./js/easyResponsiveTabs.js
    font-family: 'Athiti', sans-serif;
 }
 ```
+
+- 跳转链接文字
